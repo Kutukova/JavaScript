@@ -40,7 +40,7 @@ const students = [
 ];
 for (const value of students){
   console.log(`Info of user: ${value.name} is ${value.age} has grade ${value.grade}`);
+  for (const value in students){
+  console.log(value, students[value])};
 };
-for (value in students){
-  console.log(value, students[value]);
-}
+
