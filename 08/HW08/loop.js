@@ -39,8 +39,10 @@ const students = [
   {name: 'Charlie', age: 21, grade: 'C'}
 ];
 for (const value of students){
-  console.log(`Info of user: ${value.name} is ${value.age} has grade ${value.grade}`);
-  for (const value in students){
-  console.log(value, students[value])};
+  // console.log(`Info of user: ${value.name} is ${value.age} has grade ${value.grade}`);
+  for (const keyValue in value){
+    console.log(value[keyValue])
+    
+  };
 };
 
