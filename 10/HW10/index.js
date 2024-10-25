@@ -11,7 +11,7 @@ function randomVariant (){
   else if (valueVariant === 1){
     valueVariant=arrVariant[1]
   }
-  if (valueVariant === 2){sci
+  if (valueVariant === 2){
     valueVariant=arrVariant[2]
   }
 };
