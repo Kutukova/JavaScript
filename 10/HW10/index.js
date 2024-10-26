@@ -20,10 +20,10 @@ function result (){
   if (LowerCase == valueVariant){
     alert ('A draw')
   }
-  else if(LowerCase == "scissors" && valueVariant === 'paper' || LowerCase == 'stone' && valueVariant === 'scissors' || LowerCase == 'paper' && valueVariant === 'stone'){
+  else if(LowerCase === "scissors" && valueVariant === 'paper' || LowerCase === 'stone' && valueVariant === 'scissors' || LowerCase === 'paper' && valueVariant === 'stone'){
     alert ('You win')
   }
-  else if(LowerCase == 'paper' && valueVariant === 'scissors' || LowerCase == 'scissors' && valueVariant === 'stone' ||  LowerCase == 'stone' && valueVariant === 'paper'){
+  else if(LowerCase === 'paper' && valueVariant === 'scissors' || LowerCase === 'scissors' && valueVariant === 'stone' ||  LowerCase === 'stone' && valueVariant === 'paper'){
     alert ('You lose')
   }
   else ('You enter a wrong word')
