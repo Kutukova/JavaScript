@@ -50,7 +50,7 @@ window.onload = function(){
   
   // Task 5
   let container = document.querySelector('.blockContainer');
-  container.onclick = function(item){
-    alert (`You enter the button ${item.target.innerHTML}`);
+  container.onclick = function(event){
+    alert (`You enter the button ${event.target.innerHTML}`);
   }
 }
