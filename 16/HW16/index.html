@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js"></script>
+  <style>
+    .block{
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      border: 2px solid black;
+      background-color: antiquewhite;
+    }
+    .textBox{
+      width: 250px;
+      height: 150px;
+      background-color: rgb(98, 78, 51);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: white;
+      position: relative;
+      margin: 30px auto;
+    }
+    .list{
+      text-align: center;
+      width: 100px;
+      padding: 0;
+      background-color: blueviolet;
+      border: 2px solid blue;
+      position: absolute;
+      display: none;
+      z-index: 5;
+    }
+    .list li{
+      list-style-type: none;
+      padding: 10px 20px;
+    }
+    .list li:hover{
+      background-color: burlywood;
+      color: blue;
+    }
+    .hover{
+      display: block;
+      margin: 0 auto;
+    }
+    .field{
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      position: relative;
+      background-color: aquamarine;
+      margin-top: 300px;
+    }
+    .object{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>Task 1</h2>
+  <div class="block"></div>
+<h2>Task 2</h2>
+<div class="textBox">Нажмите правой клавишей</div>
+<ul class="list">
+  <li>Right</li>
+  <li>Left</li>
+  <li>Hide</li>
+</ul>
+<h2>Task 3</h2>
+<img src="img/dog.jpg" alt="dog" class="hover">
+<h2>Task 4</h2>
+<div class="field">
+  <div class="object"></div>
+</div>
+</body>
+</html>
