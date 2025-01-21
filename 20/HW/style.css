@@ -1,0 +1,6 @@
+:root{
+  --bg-color: violet;
+}
+body{
+  background-color: var(--bg-color);
+}
