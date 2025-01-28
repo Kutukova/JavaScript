@@ -37,6 +37,7 @@ window.onload = function(){
   let toDoList = document.querySelector('#task');
   let arr = [];
   let parseList = JSON.parse(window.localStorage.getItem('task'));
+  if (parseList !== null){
   parseList.forEach(function(item){
     let newLi = document.createElement('li');
     let removeBtn = document.createElement('button');
@@ -49,6 +50,7 @@ window.onload = function(){
       arr.pop();
     });
   });
+};
 
   btn.addEventListener('click', function(e){
     e.preventDefault();
