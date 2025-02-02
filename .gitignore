@@ -1,0 +1,9 @@
+node_moduls/
+secret.txt
+confing.env
+*.log
+*.temp
+*.zip
+*.rar
+test/
+.DS_Store
