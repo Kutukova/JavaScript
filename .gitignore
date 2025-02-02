@@ -1,9 +1,19 @@
+#Настройки gitignore
+
 node_moduls/
+
+#Отдельные файлы
 secret.txt
 confing.env
+
+#Игнор всех файлов
 *.log
 *.temp
 *.zip
 *.rar
+
+#Игнор папок
 test/
+
+#DS store игнор
 .DS_Store
