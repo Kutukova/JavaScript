@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+/* Test plagin */
+body{
+  background-color: lightblue;
+}
+p{
+  font-size: 20px;
+}
+.test{
+  margin: 0;
+  /* padding: 0; */
+  font-size: 40px;
+}

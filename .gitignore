@@ -1,6 +1,6 @@
 #Настройки gitignore
 
-node_moduls/
+node_modules/
 
 #Отдельные файлы
 secret.txt
